@@ -11,7 +11,7 @@ The aim of this R script is merge two different datasets, "Train" and "Test", pr
 
 ## The "run_analysis.R" script
 
-This R Script execute the following steps
+This R Script executes the following steps
 
 * Download the zipfile with the **download.file** function;
 * Unzip it to the work directory with the **unzip** function, from the "utils" package;
