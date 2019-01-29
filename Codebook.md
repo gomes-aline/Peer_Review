@@ -5,12 +5,12 @@ date: "29 de janeiro de 2019"
 output: html_document
 ---
 
-##Codebook
+## Codebook
 
 ### Subjects ("sub")
 list with the identification number of 30 volunteers on the experiment.
 
-### Activities list ("act")
+### Activities ("act")
 
 1. WALKING
 2. WALKING_UPSTAIRS
