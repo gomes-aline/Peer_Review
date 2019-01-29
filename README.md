@@ -7,11 +7,11 @@ output: html_document
 
 ## Introduction
 This Read Me file describes how my R script "run_analysis.R" works. This is a peer assessment of the "Getting and Cleaning Data" Course.
-The aim of this R script is merge two different data sets, "Train" and "Test", properly name it's variables and transform the dataset in a tidy dataset.
+The aim of this R script is merge two different datasets, "Train" and "Test", properly name it's variables and transform the dataset in a tidy dataset.
 
 ## The "run_analysis.R" script
 
-The steps os this R Script goes as the following
+This R Script execute the following steps
 
 * Download the zipfile with the **download.file** function;
 * Unzip it to the work directory with the **unzip** function, from the "utils" package;
@@ -25,6 +25,3 @@ The steps os this R Script goes as the following
 * Replace the number values in the activities column for the respective activity name, using a loop (for) and the **gsub** function;
 * Using **group_by** and **summarise_all**, create a tidy dataset with the average values for all the measurements by subject and by activity, resulting in a dataset with 180 rows (one row for each of the 30 subjects and 6 activities) and 81 columns for the subject, activities, and the average values of the 79 mean or standard deviation variables; 
 * The resulting dataset was stored in a txt file called "tidydata.txt".
-
-
-
